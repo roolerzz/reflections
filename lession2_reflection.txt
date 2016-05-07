@@ -1,3 +1,18 @@
 This is the reflections of lession 2. 
+Things learnt 
 
-This is just a dummy file.
+git init (initialise a repo). will create a .git file inside the folder.
+staging area (changes added here will be committed) and working area (changes done here have to be added to the staging area before committing).
+git add FILE_NAME- to  add a file to the staging area.
+git commit - to commit the changes inside the staging area to the local repository.
+git show COMMIT_ID - shows the difference of the commit from its parent commit. It could be different in case of merging branches.
+git branch - shows the list of branches in the repo and the currently checkedout branched would be marked with an astrik. 
+If you do a commit not from the master, a new commit ID will be generated and if you donot assign it a branch label, that commit would be lost. 
+git checkout branch - goes to the branch. 
+git checkout master - checksout the master branch(DEFAULT)
+Good commit message - feat/fix/docs: Add a feature. 
+whenever you do a commit on the master revision checked out, a new commit ID is created and the master is assigned to the new commit. Each commit knows its parent. Thats how you get a reachability. 
+git branch BRANCH_NAME - create a new branch label from the master revision. 
+git branch -d BRANCH_NAME - deletes the branch label. Nodes of that branch would not be reachable through the deleted branch label now. 
+git merge BRANCH2 - Merges BRANCH2 into the checked out branch BRANCH1. BRANCH1 would be incremented to the newly merged commit created. 
+You may need to manually resolve the merge confilicts. 

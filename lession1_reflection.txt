@@ -1,4 +1,11 @@
 my lession 1 reflections,
 
+Git - a cool version control system. 
+It will allows multiple people to work on same projects simultaneously and then integrate all the changes together. 
+In lession 1, we learnt,
+git diff commitID1 commitID2 - Compare the differences between 2 commit IDs.
+git clone - clone a git repository to your local.
+git log - shows all the previous git commits in the local repository.
+Set up git workspace where in we added some colors to the shell which helped us differentiate the current user, the branch or commit I am working on, and are there any loacal changes that are yet to be committed into the repository.
+The we learnt Git Checkout, which is very different from svn checkout. git checkout takes us to a particular commit ID state (and shows the message head detached, which means that the current head is not the master of current branch).
 
-404 page not found.
