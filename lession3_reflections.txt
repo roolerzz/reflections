@@ -1,1 +1,14 @@
 This file would contain the changes encountered in the reflection 3.
+
+1) Create a remote repository using the github profile. This should not contain the readme as we will be pushing our repository onto it.
+2) Our local repository would interact with the remote using git push and git pull commands. Changes that are not already present in the remote will be pushed.
+3) Before pushing the changes onto the remote, first configure a remote inside your local repository. 
+git remote - will give you the remotes configured to your repository. 
+git remote add origin URL 
+git remote -v - will give verbose output. (FETCH and PUSH remotes saying from where you will fetch the data and where you would push the data).
+
+4) git push origin master(BRANCH_NAME_TO_SYNC) 
+
+QUES : When would you want to use a remote repository rather than keeping all your work local?
+ANS : when remotely you would want to collaborate with people staying anywhere in the world just having an internet connection.
+
