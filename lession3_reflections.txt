@@ -12,3 +12,19 @@ git remote -v - will give verbose output. (FETCH and PUSH remotes saying from wh
 QUES : When would you want to use a remote repository rather than keeping all your work local?
 ANS : when remotely you would want to collaborate with people staying anywhere in the world just having an internet connection.
 
+git pull origin master (pull all the changes from the remote to the local repository.)
+
+Q- Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+A- There might be merging conflicts that could only be resolved manually. Will Git be that smart to resolve it automatically.
+Forking - You want to do the changes to the repository but you dont have the permission to contribute to it.
+Forking- Allows you to make a copy of somebody's else's repository directly on the github server, without pulling down the code to your local machine first. fork somebody else's repository to have it appear on your account. Forks records links back to the original. You can suggest changes to the original repository. 
+
+Branching happens only on a single repository. 
+cloning - take 1 repo and clone it. you can clone both a local and or a remote repo. 
+
+when you clone a remote repository, git automatically creates a remote inside the local repository you cloned to. 
+
+Q - Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A - Clone - Create a clone of a remote or local repository into your local machine. 
+Branch - Create a new commit label for experimental changes that you are not sure you want in your master or not.
+fork - Clone another's repository in Github as your repository. 

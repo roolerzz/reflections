@@ -16,3 +16,4 @@ git branch BRANCH_NAME - create a new branch label from the master revision.
 git branch -d BRANCH_NAME - deletes the branch label. Nodes of that branch would not be reachable through the deleted branch label now. 
 git merge BRANCH2 - Merges BRANCH2 into the checked out branch BRANCH1. BRANCH1 would be incremented to the newly merged commit created. 
 You may need to manually resolve the merge confilicts. 
+git reset HEAD FILE_NAME to unstage the changes. You have reviewed your changes you thought you wanted to commit and now you think they are not suitable so you are removing them from the staging area. 
