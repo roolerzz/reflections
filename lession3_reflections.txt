@@ -28,3 +28,7 @@ Q - Describe the differences between forks, clones, and branches. When would you
 A - Clone - Create a clone of a remote or local repository into your local machine. 
 Branch - Create a new commit label for experimental changes that you are not sure you want in your master or not.
 fork - Clone another's repository in Github as your repository. 
+
+Q-How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A- Well we could fork someone else's repo on git hub. We can do multiple changes on it on a different branch and push to github. And through pull request, we can ask the collaborators to review the changes and merge to the master if the changes are appropriate. 
+Without the above functionality, it would be very difficult to collaborate. The above methods are easier. 
