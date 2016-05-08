@@ -32,3 +32,5 @@ fork - Clone another's repository in Github as your repository.
 Q-How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 A- Well we could fork someone else's repo on git hub. We can do multiple changes on it on a different branch and push to github. And through pull request, we can ask the collaborators to review the changes and merge to the master if the changes are appropriate. 
 Without the above functionality, it would be very difficult to collaborate. The above methods are easier. 
+
+Fast-forward merge - when you merge a commit onto its ancestor master, no new commit is created, instead, master is updated to that commit. 
